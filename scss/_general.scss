@@ -1,37 +1,39 @@
-html {
-  height: 100%;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
+html{
+    box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+*, 
+*::after,
+*::before{
+    box-sizing: inherit;
+
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+body{
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    background-color:  #F8FAFD;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0)
+img{
+    // display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
 }
+
+
+
